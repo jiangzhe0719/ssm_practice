@@ -1,4 +1,4 @@
-package cn.itcast.controller;
+﻿package cn.itcast.controller;
 
 import cn.itcast.domain.Account;
 import cn.itcast.service.AccountService;
@@ -36,6 +36,8 @@ public class AccountController {
         System.out.println("123");
         System.out.println("123");
         System.out.println("123");
+System.out.println("223");
+System.out.println("223");
         return "list";
     }
 
