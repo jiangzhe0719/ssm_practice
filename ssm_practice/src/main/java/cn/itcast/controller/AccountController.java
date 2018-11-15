@@ -1,4 +1,4 @@
-package cn.itcast.controller;
+﻿package cn.itcast.controller;
 
 import cn.itcast.domain.Account;
 import cn.itcast.service.AccountService;
@@ -35,7 +35,9 @@ public class AccountController {
         model.addAttribute("list", accountList);
         System.out.println("123");
         System.out.println("123");
-        System.out.println("123");
+        System.out.println("123"); 
+System.out.println("333");
+System.out.println("333");
         return "list";
     }
 
