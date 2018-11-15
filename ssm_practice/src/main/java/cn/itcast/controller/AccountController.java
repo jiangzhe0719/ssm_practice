@@ -35,9 +35,15 @@ public class AccountController {
         model.addAttribute("list", accountList);
         System.out.println("123");
         System.out.println("123");
+
         System.out.println("123");
 System.out.println("223");
 System.out.println("223");
+
+        System.out.println("123"); 
+System.out.println("333");
+System.out.println("333");
+
         return "list";
     }
 
