@@ -48,6 +48,7 @@ public class AccountController {
 
         System.out.println("表现层：保存账户...");
         accountService.saveAccount(account);
+        System.out.println("123");
         return "redirect:findAll";
     }
 
